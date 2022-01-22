@@ -35,12 +35,10 @@ The analysis of the election show that:
 ## Election Audit Summary
 The following script is an efficient and user-friendly method of counting votes electronically and summarizing the outcome both by voter and each county involved in the process.  This script can accept any voting result that is contained in a .csv file.  
 ![image](https://user-images.githubusercontent.com/19878877/150646853-48acec1f-cd63-4a95-85f3-e7e979a443cf.png)
+Utilizing a URL instead of an internal PC path, the same Pandas library can import a URL address for efficient processing from voting results placed on a secured web server.
+(pandas.read_csv(URL) )
 
+Currently, the input must be in a three column form (Ballot, county, candidate) but with an input-based modification, the software could handle the output style from different locations.  This would require coding that would search the input for the columns that are a specific style recognizing names and column titles that correspond to the target information.  That being said, the output will still show "candidate" and "county" information exclusively.
+![image](https://user-images.githubusercontent.com/19878877/150647018-782d94d7-572d-4f25-a577-513fdb4cfcfd.png)
 
-
-`# Assign a variable to load a file from a path.`
-`file_to_load = os.path.join("Resources", "election_results.csv")`
-# Assign a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
-
-Currently, the input must be in a three column form (Ballot, county, candidate) but with an input-based modification, the software could handle the output style from different locations.  That being said, the output will still show "candidate" and "county" information exclusively.
+All in all, the Python script will efficiently process and count voting results during election times.  It has the strong ability to visualize the results in a tabular form (Pandas library) or graphically through libraries such as Matplotlib.  This will greatly improve automation, employee/volunteer efficiency, and represtation of regional voting.
