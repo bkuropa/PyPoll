@@ -33,4 +33,14 @@ The analysis of the election show that:
 -   Candidate 2, who received recieving 73.8% of the vote.
 
 ## Election Audit Summary
-The following script is an efficient and user-friendly method of counting votes electronically and summarizing the outcome both by voter and each county involved in the process.  This script can accept any voting result that is contained in a .csv file.  Currently, the input must be in a three column form (Ballot, county, candidate) but with an input-based modification, the software could handle the output style from different locations.  That being said, the output will still show "candidate" and "county" information exclusively.
+The following script is an efficient and user-friendly method of counting votes electronically and summarizing the outcome both by voter and each county involved in the process.  This script can accept any voting result that is contained in a .csv file.  
+![image](https://user-images.githubusercontent.com/19878877/150646853-48acec1f-cd63-4a95-85f3-e7e979a443cf.png)
+
+
+
+`# Assign a variable to load a file from a path.`
+`file_to_load = os.path.join("Resources", "election_results.csv")`
+# Assign a variable to save the file to a path.
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+
+Currently, the input must be in a three column form (Ballot, county, candidate) but with an input-based modification, the software could handle the output style from different locations.  That being said, the output will still show "candidate" and "county" information exclusively.
