@@ -14,8 +14,13 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Software: Python 3.5.1, Jupityr
 
 ## Summary
-The analysis of teh election show that:
+The analysis of the election show that:
 - There were "x" votes cast in the election.
+- There were 3 countys involved showing votes in the following magnituge:
+-   1
+-   2
+-   3
+- It is observed that the xxx county had the largest number of votes
 - The candidates were:
 -   Candidate 1
 -   Candidate 2 
@@ -26,3 +31,6 @@ The analysis of teh election show that:
 -   Candidate 3 recieved x% of the vote and "y" number of votes.
 - The winner of teh election was:
 -   Candidate x, who received recieved x% of the vote and "y" number of votes.
+
+## Election Audit Summary
+The following script is an efficient and user-friendly method of counting votes electronically and summarizing the outcome both by voter and each county involved in the process.
