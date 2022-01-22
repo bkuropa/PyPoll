@@ -33,4 +33,4 @@ The analysis of the election show that:
 -   Candidate x, who received recieved x% of the vote and "y" number of votes.
 
 ## Election Audit Summary
-The following script is an efficient and user-friendly method of counting votes electronically and summarizing the outcome both by voter and each county involved in the process.
+The following script is an efficient and user-friendly method of counting votes electronically and summarizing the outcome both by voter and each county involved in the process.  This script can accept any voting result that is contained in a .csv file.  Currently, the input must be in a three column form (Ballot, county, candidate) but with an input-based modification, the software could handle the output style from different locations.  That being said, the output will still show "candidate" and "county" information exclusively.
